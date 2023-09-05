@@ -10,7 +10,7 @@
     inherit (inputs'.nixpkgs-unstable.legacyPackages) solc;
   in {
     config.packages.mevETH = mkDerivation {
-      pname = "mevETH";
+      pname = "foundry-nix-template";
       version = "0.0.1";
 
       src = lib.cleanSource ../.;
